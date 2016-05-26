@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	margin-left: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-right: 30px;
+	width: 1000px;
+}
+body{
+	color: #555A54;
+	font-family: 'Arial', helvetica;
+}
+.table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd; 
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+th {
+	text-align: left;
+}
+td, th {
+	padding: 0;
+}
+th {
+	font-weight: bold;
+	font-size: 13px;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	width: 600px;
+	margin: 80px auto 0 auto;
+}
+h4{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto 10px auto;
+}
+td{
+	font-size: 13px;
+}
+tbody>tr:nth-child(odd) {
+background-color: #f9f9f9;
+}
+.titulo{
+	background-color: #096A97;
+	color: #fff;
+}
+p{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.codigo{
+	margin-top: 10px;
+	font-size: 10px;
+}
+.firmas{
+	width: 72%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 30px;
+	height: 200px;
+	left: 14%;
+}
+.firma_leg{
+	width: 130px;
+	font-size: 13px;
+	text-align: center;
+}
+.firma{
+	margin: 10px 15px;
+}
+.firma_box{
+	width: 130px;
+	height: auto;
+	display: inline-block;
+	margin: 0 30px;
+}
+.pie_reporte{
+	font-size: 14px;
+	line-height: 3px;
+}
+.logo_reporte{
+	margin-left: 50px;
+	margin-top: 50px;
+	position: absolute;
+}
+.tamizado{
+	line-height: 7px;
+	font-size: 14px;
+}
+.logo_empresa{
+	margin-left: 900px;
+	margin-top: 50px;
+	position: absolute;
+}
+.tit{
+	font-weight: bold;
+}

@@ -1,0 +1,508 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@font-face {
+  font-family: "And Black";
+  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/and_black.woff") format('woff'),
+       url("../fonts/and_black.ttf") format('truetype');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v15/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+  /*src: url("../fonts/material-icon.woff2 format('woff2')");*/
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+img.image-tuto{
+  width: 70%!important;
+  height: auto;
+}
+img.image-tuto_3{
+  width: 50%!important;
+  height: auto;
+}
+div.content_image_person{
+  text-align: center;
+  padding-bottom: 17px;
+}
+img.image_person{
+  border-radius: 50%;
+  width :100px;
+  height: 100px;
+}
+/*STAR CSS*/
+.align_center{
+  text-align: center!important;
+  display: block!important;
+  padding-bottom: 20px;
+}
+.audio, .audio_1, .audio_2{
+  width: 30px;
+  float: right;
+  top: 0;
+  padding-left: 20px;
+}
+.audio_1{
+  margin-right: 70px!important;
+  padding-left: 0!important;
+}
+.audio_2{
+  margin-top: -60px!important;
+  margin-right: -30px!important;
+}
+.color-text-1{
+  color: #757575!important;
+}
+.image{
+  padding: 20px!important;
+  width: 100%!important;
+  margin: 0 auto!important;
+  text-align: center!important; 
+}
+.image>img{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+.img_img{
+  width: 60%!important;
+  height: 60%!important;
+  margin: 0 auto!important;
+}
+.align-left{
+  float: left;
+}
+.button_1{
+  float: right; 
+  margin-bottom: 20px; 
+  background-color: #00897B!important;
+}
+.button_2_sc{
+  float: right; 
+  margin-bottom: 20px; 
+  padding: 20px 90px;
+}
+.button_next{
+  float: right!important;
+}
+.button_next>i, .button_prev>i{
+  font-size: 42px;
+  cursor: pointer;
+}
+div.form-group>span.help-block{
+  color: #B71C1C;
+  font-weight: 300;
+  font-size: 12px;
+}
+.hide{
+  display: block;
+}
+.show{
+  display: none;
+}
+
+.padding-top-20{
+  padding-top: 20px;
+}
+.padding-top-_20{
+  padding-top: 0!important;
+}
+.margin-top-_30{
+  margin-top: -30px!important;
+}
+.padding-box-1{
+  padding: 10px;
+}
+.palabra_1{
+  color: #8E8E8A!important;
+  margin-left: 20px!important;
+}
+.width-box-70{
+  width:75%;
+}
+
+.radio-1{
+  font-size: 30px;
+  color: #EF2222;
+}
+
+.container-1{ 
+  width: 80%; 
+  margin: 20px auto;
+  text-align: center;
+}
+.border_abajo{
+  border-bottom: 1px dotted #C4C4C4;
+}
+.container-2{
+  width: 80%!important ; 
+  margin: 20px auto!important; 
+}
+.container-3{
+  width: 80%!important ; 
+  margin: 0px auto!important; 
+}
+.border-content-2{
+  border: 1px dotted #4C4C4C;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.mdl-layout__header-row, .mdl-navigation, .mdl-navigation__link{
+  color: #4C4C4C!important;
+}
+.mdl-card__supporting-text {
+  padding: 0 10px!important;
+}
+.mdl-layout-title-menu{
+  font-size: 18px!important;
+  background-color: #3F51B5;
+  padding-top: 20px;
+  margin-left: -20px;
+  border: none!important;
+  color: #E6E8F6;
+}
+.space-container{
+  padding: 30px;
+}
+.space-button{
+  padding: 10px 30px;
+}
+.title_1, .title_1_2{
+  font-size: 30px;
+  /*color: #212121;*/
+  color: #8bc34a;
+  font-weight: 700 !important;
+}
+.title_1_2{
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+}
+.title_2{
+  padding: 0 10px;
+  font-weight: bold;
+}
+.title_3{
+  color: #E6E8F6!important;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.footer{
+  position: fixed;
+  padding: 8px 0 0 0;
+  bottom: 0!important;
+  text-align: center;
+  color: #9E9E9E!important;
+  font-weight: 300;
+  background-color: #EEEEEE; 
+  width: 100%;
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: none!important;
+  outline: 0;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+}
+.form-control::-moz-placeholder {
+  color: #777;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #777;
+}
+.form-control::-webkit-input-placeholder {
+  color: #777;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+textarea.form-control {
+  height: auto;
+}
+
+
+
+/*Star Uses a transparent header that draws on top of the layout's background*/
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: #4C4C4C;
+}
+/*End Uses a transparent header that draws on top of the layout's background*/
+
+/*Star Wide card with share menu button*/
+.score{
+  display: inline-block!important;
+  text-align: center!important;
+  margin: 0 auto!important; 
+}
+.height_card_1{
+  height: 66px;
+}
+.font_1{
+  font-weight: bold!important;
+}
+.color_terminar{
+  color: #2196F3;
+}
+.height_card_1>h2{
+  font-weight: bold!important;
+}
+.align_center{
+  text-align: center;
+}
+.demo-card-wide.mdl-card {
+  /*width: 512px;*/
+  width: 100%;
+}
+.mdl-card__title{
+  text-align: center!important;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-card__supporting-text{
+  /*background-color: red;*/
+  margin: 0 auto;
+  padding-bottom: 30px;
+  /*margin-bottom: 30px;*/
+}
+.mdl-card__supporting-text-1, .mdl-card__supporting-text-2 {
+  color: #4C4C4C;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left!important;
+}
+.mdl-card__supporting-text-2{
+  margin-left: 15%!important;
+}
+/*End Wide card with share menu button*/
+.title-1 {
+  color: #838B8C;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 44px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto !important;
+  /*height: 176px;*/
+  /*background-color: red;*/
+}
+.title-2, .title-3{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.cuadro-1{
+  padding: 15px;
+  margin: 10px auto;
+}
+.form{
+  border-top: 1px solid #DCDBDB;
+  /*background-color: blue;*/
+  padding: 15px;
+  padding-top: 30px;
+}
+.form>form{
+  width: 70%;
+  margin: 0 auto;
+}
+.form-signin-1, .form-signin-2, .form-signin-3 {
+  /*max-width: 470px;*/
+  width: 100%;
+  padding: 15px;
+  margin: 10px auto;
+  /*text-align: right;*/
+}
+.form-signin-1>img, .form-signin-2>img, .form-signin-3>img{
+  width: 100%;
+  height: auto;
+  margin: 20px auto!important;
+}
+.form-signin-1{
+  display: none!important;
+}
+.row{
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+.align-right{
+  text-align: right;
+}
+.align-left{
+  text-align: left;
+}
+.size-text-1{
+  font-size: 12px !important;
+}
+.align-right:hover{
+  color: #838B8C !important;
+  text-decoration: underline !important;
+  /*background-color: red;*/
+}
+
+.title_categoria{
+  margin-top: -5px!important;
+  position: fixed!important;
+  width: 93%;
+  margin-right: 50px!important;
+  z-index: 1;
+}
+.title_categoria>a, .title_categoria>button{
+  float: right!important;
+  margin-right: 10px!important; 
+}
+#column-left {
+    background-color: #EBE9EA;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    float: left;
+    position: fixed;
+    min-height: 225px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+}
+
+.color_aprob{
+  background-color: #1DE9B6!important;
+}
+.color_repro{
+  background-color: #EF5350!important;
+}
+/*FIN CSS*/
+
+/*STAR MEDIA QUERYS*/
+@media (max-width: 767px) {
+  .container-2_ancho{
+    width: 100%!important;
+  }
+  .audio_2{
+    margin-top: -60px!important;
+    margin-right: -15px!important;
+  }
+  .title_categoria{
+    margin-top: 25px;
+  }
+  .form{
+    border-top:none!important;
+    /*background-color: blue;*/
+    padding: 0!important;
+    padding-top: 25px!important;
+  }
+  .form>form{
+    width: 95%!important;
+    /*background-color: red;*/
+  }
+  .cuadro-1{
+    padding: 0 !important;
+    margin: -25px !important;
+  }
+  .cuadro-content{
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .form-signin-1, .form-signin-3 {
+    width: 60%!important;
+    /*height: 20%!important;*/
+    display: block!important;
+    padding: 0!important;
+    margin: 0 auto!important;
+  }
+  .form-signin-2 {
+    display: none!important;
+  }
+  
+  .form-signin-1>img{
+    margin: 0 auto!important;
+    margin-bottom: 15px!important; 
+  }
+  .title-1 {
+    font-size: 28px;
+    line-height: 24px;
+  }
+  .title-2 {
+    display: none!important;
+  }
+  .title-3{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  img.image-tuto_3{
+    width: 100%!important;
+  }
+  article.space_top_3{
+    padding-top: 30px;
+  }
+}
+/*END MEDIA QUERYS*/
