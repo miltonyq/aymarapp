@@ -55,7 +55,6 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '127.7.8.130',
-			'port'      => '3306',
 			'database'  => 'aymarapp',
 			'username'  => 'adminFJgafcN',
 			'password'  => 'SdBEiuTT_6d3',
