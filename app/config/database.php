@@ -54,11 +54,11 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.7.8.130',
-			'port'      => '3306',
-			'database'  => 'aymarapp',
-			'username'  => 'adminFJgafcN',
-			'password'  => 'SdBEiuTT_6d3',
+			'host'      => 'OPENSHIFT_MYSQL_DB_HOST',
+			'port'      => 'OPENSHIFT_MYSQL_DB_PORT',
+			'database'  => 'OPENSHIFT_MYSQL_DB_URL',
+			'username'  => 'OPENSHIFT_MYSQL_DB_USERNAME',
+			'password'  => 'OPENSHIFT_MYSQL_DB_PASSWORD',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
