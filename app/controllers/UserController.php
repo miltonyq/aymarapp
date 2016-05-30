@@ -11,7 +11,7 @@ class UserController extends BaseController {
 	public function login_usuario_post()
 	{
 		$input = Input::all();
-		$bcrypt = new Bcrypt(15);
+		// $bcrypt = new Bcrypt(15);
 
 		$rules = array(
 			'username' => 'required|exists:users,username',
@@ -31,7 +31,7 @@ class UserController extends BaseController {
 
 			if($user = User::where('username', '=', $username)->first())
 			{
-				if($bcrypt->verify($password, $user->password))
+				if($user = User::where('password', '=', $password)->first())//$bcrypt->verify($password, $user->password)
 				{
 					Session::put('user_id', $user->id);
 					Session::put('user_username', $user->username);

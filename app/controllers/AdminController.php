@@ -19,7 +19,7 @@ class AdminController extends BaseController {
 	public function personas_add()
 	{
 		$input = Input::all();
-		$bcrypt = new Bcrypt(15);
+		// $bcrypt = new Bcrypt(15);
 		$rules = array(
 			'username' => 'required',
 			'email' => 'required|email|unique:personas,email',
@@ -43,7 +43,8 @@ class AdminController extends BaseController {
 			$persona = new Persona;
 			$persona->username = Input::get('username');
 			$persona->email = Input::get('email');
-			$persona->password = $bcrypt->hash(Input::get('password'));
+			// $persona->password = $bcrypt->hash(Input::get('password'));
+			$persona->password = Input::get('password');	
 			$persona->nombres = Input::get('nombres');
 			$persona->apellidos = Input::get('apellidos');
 			$persona->edad = Input::get('edad');

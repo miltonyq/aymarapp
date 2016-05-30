@@ -13,7 +13,7 @@ class PersonaController extends BaseController {
 	public function login_persona_post()
 	{
 		$input = Input::all();
-		$bcrypt = new Bcrypt(15);
+		// $bcrypt = new Bcrypt(15);
 
 		$rules = array(
 			'email' => 'required|email|exists:personas,email',
@@ -33,7 +33,7 @@ class PersonaController extends BaseController {
 
 			if($persona = Persona::where('email', '=', $email)->first())
 			{
-			    if($bcrypt->verify($password, $persona->password))
+			    if($persona = Persona::where('password', '=', $password)->first())//$bcrypt->verify($password, $persona->password)
 				{
 				    Session::put('persona_id', $persona->id);
 				    Session::put('persona_username', $persona->username);
@@ -80,7 +80,7 @@ class PersonaController extends BaseController {
 	public function registro_post()
 	{
 		$input = Input::all();
-		$bcrypt = new Bcrypt(15);
+		// $bcrypt = new Bcrypt(15);
 		$rules = array(
 			'username' => 'required',
 			'email' => 'required|email|unique:personas,email',
@@ -117,7 +117,8 @@ class PersonaController extends BaseController {
 			$persona = new Persona;
 			$persona->username = Input::get('username');
 			$persona->email = Input::get('email');
-			$persona->password = $bcrypt->hash(Input::get('password'));
+			// $persona->password = $bcrypt->hash(Input::get('password'));
+			$persona->password = Input::get('password');
 			$persona->nombres = Input::get('nombres');
 			$persona->apellidos = Input::get('apellidos');
 			$persona->edad = Input::get('edad');
