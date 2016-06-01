@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
+			'host'      => 'https://aymarapp-pamh.rhcloud.com/phpmyadmin',
 			'database'  => 'aymarapp',
 			'username'  => 'adminFJgafcN',
 			'password'  => 'SdBEiuTT_6d3',
