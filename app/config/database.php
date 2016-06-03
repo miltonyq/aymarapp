@@ -53,14 +53,15 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'https://aymarapp-pamh.rhcloud.com/phpmyadmin/#PMAURL-0:index.php?db=&table=&server=1&target=&token=2aef996ed5d631ee0a2a762fd256479f',
-			'database'  => 'aymarapp',
-			'username'  => 'adminFJgafcN',
-			'password'  => 'SdBEiuTT_6d3',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
+			'driver'    => "mysql",
+			'host'      => "127.7.8.130",
+			'port'		=> "3306",
+			'database'  => "aymarapp",
+			'username'  => "adminFJgafcN",
+			'password'  => "SdBEiuTT_6d3",
+			'charset'   => "utf8",
+			'collation' => "utf8_unicode_ci",
+			'prefix'    => "",
 		),
 
 		'pgsql' => array(
